@@ -1,0 +1,19 @@
+.main-nav ol {
+  margin-top: 13px;
+  float: right;
+  @extend .list-reset;
+  .main-nav ol li {
+     float: left;
+     border-right: 1px solid white;
+     .main-nav ol li a {
+        color: $primary-color;
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 30px;
+        padding: 0 25px;
+        .main-nav ol li a:hover {
+           text-decoration: underline;
+         }
+      }
+   }
+ }

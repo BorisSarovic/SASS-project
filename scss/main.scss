@@ -1,0 +1,49 @@
+@import "partials/variables";
+@import "partials/global";
+@import "partials/layout";
+@import "partials/helpers";
+@import "partials/nav";
+
+
+/********************************************
+              Specific styles
+********************************************/
+
+.logo {
+  font-size: 100px;
+  margin: 0;
+}
+.tagline {
+  margin: 0;
+  font-size: 40px;
+  font-weight: normal;
+  letter-spacing: 3px;
+}
+.article-basic {
+  padding: 25px;
+}
+.article-dark, .article-spec {
+  background-color: $color;
+  color: #fff;
+  border-radius: 20px;
+}
+.article-spec {
+  font-family: $secondary-font;
+  font-weight: bold;
+  font-size: 30px;
+  font-style: italic;
+  line-height: 1.2;
+  text-align: right;
+  padding: 10px;
+}
+.sentence-start {
+  font-size: 80px;
+  color: #00CC66;
+  line-height: 1;
+}
+.sentence-end {
+  color: #6699CC;
+}
+.image {
+   border-radius: 15px;
+}

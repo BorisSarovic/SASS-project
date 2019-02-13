@@ -1,0 +1,33 @@
+/************************************************
+              Global styles
+***********************************************/
+html, body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  background-color: $bkg-color;
+  font-family: $primary-font;
+  font-size: 16px;
+  color: $color;
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h1, h2, h3, h4 {
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 22px;
+}
+p {
+  margin: 0;
+}
+small {
+  font-size: 16px;
+  font-style: italic;
+}
